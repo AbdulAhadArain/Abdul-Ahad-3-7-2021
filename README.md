@@ -15,4 +15,4 @@
 
 ### Watch it in live action:
 
-- https://serene-boyd-4a80a3.netlify.app/server/pages
+- https://abdul-ahad-3-7-2021-jeq13xrc7-abdulahadarain.vercel.app/
