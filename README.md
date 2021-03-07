@@ -15,4 +15,4 @@
 
 ### Watch it in live action:
 
-- https://serene-boyd-4a80a3.netlify.app
+- https://serene-boyd-4a80a3.netlify.app/server/pages
