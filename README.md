@@ -8,8 +8,9 @@
 
 - npm install
 - npm run dev
-- #####See it on:
-- ######http://localhost:3000
+
+#####See it on:
+######http://localhost:3000
 
 ### Watch it in live action:
 
