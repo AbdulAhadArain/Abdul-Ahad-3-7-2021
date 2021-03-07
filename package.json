@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "export",
     "start": "next start",
     "test": "mocha"
+    "export": "next build && next export"
   },
   "dependencies": {
     "axios": "^0.21.1",
