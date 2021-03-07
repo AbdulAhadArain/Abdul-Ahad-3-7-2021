@@ -60,7 +60,7 @@ const Home = () => {
           <div className="grid grid-cols-2">
             <div className="col-span-1 pl-5 pt-5 hidden sm:block">
               <b>
-                {reduce(function (a, b) {
+                {jobs?.reduce(function (a, b) {
                   return a + b["total_jobs_in_hospital"];
                 }, 0)}
               </b>{" "}
