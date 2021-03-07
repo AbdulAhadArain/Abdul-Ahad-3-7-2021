@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "export",
     "start": "next start",
-    "test": "mocha"
+    "test": "mocha",
     "export": "next build && next export"
   },
   "dependencies": {
