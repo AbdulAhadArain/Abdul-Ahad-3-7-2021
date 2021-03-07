@@ -1,0 +1,32 @@
+.company-jobs {
+  max-height: 0;
+}
+
+.company:nth-child(1) input:checked ~ .company-jobs {
+  max-height: 100%;
+}
+
+.job-details {
+  max-height: 0;
+}
+
+.job input:checked ~ .job-details {
+  max-height: 100%;
+}
+
+[data-initials]:before {
+  background: #747777;
+  color: white;
+  opacity: 1;
+  content: attr(data-initials);
+  display: inline-block;
+  font-weight: 500;
+  font-size: 25px;
+  border-radius: 35%;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
