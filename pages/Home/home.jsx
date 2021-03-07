@@ -59,7 +59,12 @@ const Home = () => {
         <div className="lg:col-span-10 md:col-span-10 col-span-12 rounded-md bg-white">
           <div className="grid grid-cols-2">
             <div className="col-span-1 pl-5 pt-5 hidden sm:block">
-              <b>{jobs?.length}</b> job postings
+              <b>
+                {reduce(function (a, b) {
+                  return a + b["total_jobs_in_hospital"];
+                }, 0)}
+              </b>{" "}
+              job postings
             </div>
             <div className="col-span-1 pt-5 flex space-x-4 justify-center hidden sm:block">
               <a
